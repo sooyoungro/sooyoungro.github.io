@@ -7,6 +7,19 @@ DefaultContentLanguage = "ko"
 DefaultContentLanguageInSubdir = true
 
 [languages]
+  [languages.en]
+    contentDir = "content/en"
+    weight = 1
+    languageName = "영어(English)"
+  [languages.en.params]
+    introTitle = "영어(English)"
+    introSubtitle = "영어 영상 모음입니다."
+    introPhoto = "/banner_en.png"
+  [[languages.en.menu.main]]
+    name = "Blog"
+    url = "blog"
+    weight = 1
+
   [languages.ko]
     contentDir = "content/ko"
     weight = 1
@@ -14,11 +27,76 @@ DefaultContentLanguageInSubdir = true
   [languages.ko.params]
     introTitle = "한국어(Korean)"
     introSubtitle = "한국어 영상 모음입니다."
-    introPhoto = "/flag_korea.png"
+    introPhoto = "/banner_ko.png"
   [[languages.ko.menu.main]]
     name = "Blog"
     url = "blog"
     weight = 1
+
+  [languages.zh]
+    contentDir = "content/zh"
+    weight = 3
+    languageName = "汉语(Chinese)"
+  [languages.zh.params]
+    introTitle = "汉语(Chinese)"
+    introSubtitle = "중국어 영상 모음입니다."
+    introPhoto = "/banner_cn.png"
+  [[languages.zh.menu.main]]
+    name = "Blog"
+    url = "blog"
+    weight = 1
+
+  # [languages.ja]
+  #   contentDir = "content/ja"
+  #   weight = 3
+  #   languageName = "日本語(Japan)"
+  # [languages.ja.params]
+  #   introTitle = "日本語(Japan)"
+  #   introSubtitle = "일본어 영상 모음입니다."
+  #   introPhoto = "/flag_china.png"
+  # [[languages.ja.menu.main]]
+  #   name = "Blog"
+  #   url = "blog"
+  #   weight = 1
+
+  # [languages.vi]
+  #   contentDir = "content/vi"
+  #   weight = 3
+  #   languageName = "Tiếng Việt(Vietnamese)"
+  # [languages.vi.params]
+  #   introTitle = "Tiếng Việt(Vietnamese)"
+  #   introSubtitle = "베트남어 영상 모음입니다."
+  #   introPhoto = "/flag_china.png"
+  # [[languages.vi.menu.main]]
+  #   name = "Blog"
+  #   url = "blog"
+  #   weight = 1
+
+  # [languages.ne]
+  #   contentDir = "content/vi"
+  #   weight = 3
+  #   languageName = "नेपाली(Nepali)"
+  # [languages.ne.params]
+  #   introTitle = "नेपाली(Nepali)"
+  #   introSubtitle = "네팔어 영상 모음입니다."
+  #   introPhoto = "/flag_nepal.png"
+  # [[languages.ne.menu.main]]
+  #   name = "Blog"
+  #   url = "blog"
+  #   weight = 1
+
+  # [languages.my]
+  #   contentDir = "content/my"
+  #   weight = 3
+  #   languageName = "ဗမာ(Myanmar)"
+  # [languages.my.params]
+  #   introTitle = "ဗမာ(Myanmar)"
+  #   introSubtitle = "미얀마어 영상 모음입니다."
+  #   introPhoto = "/flag_myanmar.jpeg"
+  # [[languages.my.menu.main]]
+  #   name = "Blog"
+  #   url = "blog"
+  #   weight = 1
 
 [params]
   # Enable the darkmode toggle in header
