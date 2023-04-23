@@ -46,18 +46,18 @@ DefaultContentLanguageInSubdir = true
     url = "blog"
     weight = 1
 
-  # [languages.ja]
-  #   contentDir = "content/ja"
-  #   weight = 3
-  #   languageName = "日本語(Japan)"
-  # [languages.ja.params]
-  #   introTitle = "日本語(Japan)"
-  #   introSubtitle = "일본어 영상 모음입니다."
-  #   introPhoto = "/flag_china.png"
-  # [[languages.ja.menu.main]]
-  #   name = "Blog"
-  #   url = "blog"
-  #   weight = 1
+  [languages.ja]
+    contentDir = "content/ja"
+    weight = 3
+    languageName = "日本語(Japan)"
+  [languages.ja.params]
+    introTitle = "日本語(Japan)"
+    introSubtitle = "일본어 영상 모음입니다."
+    # introPhoto = "/flag_china.png"
+  [[languages.ja.menu.main]]
+    name = "Blog"
+    url = "blog"
+    weight = 1
 
   # [languages.vi]
   #   contentDir = "content/vi"
