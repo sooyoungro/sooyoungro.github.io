@@ -3,61 +3,74 @@ metaDataFormat = "yaml"
 title = "Sooyoungro Church"
 theme = "blist"
 
-DefaultContentLanguage = "ko"
+DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
     contentDir = "content/en"
     weight = 1
-    languageName = "영어(English)"
+    languageName = "English(영어)"
   [languages.en.params]
-    introTitle = "영어(English)"
-    introSubtitle = "영어 영상 모음입니다."
+    introTitle = "To The Father’s"
+    introSubtitle = "New Year Special Morning Prayer"
     introPhoto = "/banner_en.png"
   [[languages.en.menu.main]]
-    name = "Blog"
+    name = "To The Father’s"
     url = "blog"
     weight = 1
 
-  [languages.ko]
-    contentDir = "content/ko"
+  [languages.kr]
+    contentDir = "content/kr"
     weight = 1
     languageName = "한국어(Korean)"
-  [languages.ko.params]
-    introTitle = "한국어(Korean)"
-    introSubtitle = "한국어 영상 모음입니다."
-    introPhoto = "/banner_ko.png"
-  [[languages.ko.menu.main]]
-    name = "Blog"
+  [languages.kr.params]
+    introTitle = "아버지 집으로"
+    introSubtitle = "연말연시특별새벽기도회"
+    introPhoto = "/banner_kr.png"
+  [[languages.kr.menu.main]]
+    name = "아버지 집으로"
     url = "blog"
     weight = 1
 
-  [languages.zh]
-    contentDir = "content/zh"
-    weight = 3
+  [languages.cn]
+    contentDir = "content/cn"
+    weight = 1
     languageName = "汉语(Chinese)"
-  [languages.zh.params]
-    introTitle = "汉语(Chinese)"
-    introSubtitle = "중국어 영상 모음입니다."
+  [languages.cn.params]
+    introTitle = "回父亲的家"
+    introSubtitle = "跨年特别晨更祷告会"
     introPhoto = "/banner_cn.png"
-  [[languages.zh.menu.main]]
-    name = "Blog"
+  [[languages.cn.menu.main]]
+    name = "回父亲的家"
     url = "blog"
     weight = 1
 
-  [languages.ja]
-    contentDir = "content/ja"
-    weight = 3
+  [languages.jp]
+    contentDir = "content/jp"
+    weight = 1
     languageName = "日本語(Japan)"
-  [languages.ja.params]
-    introTitle = "日本語(Japan)"
-    introSubtitle = "일본어 영상 모음입니다."
-    # introPhoto = "/flag_china.png"
-  [[languages.ja.menu.main]]
-    name = "Blog"
+  [languages.jp.params]
+    introTitle = "父の家へ"
+    introSubtitle = "年末年始特別早天祈祷会"
+    introPhoto = "/banner_jp.png"
+  [[languages.jp.menu.main]]
+    name = "父の家へ"
     url = "blog"
     weight = 1
+
+  [languages.my]
+     contentDir = "content/my"
+     weight = 3
+     languageName = "ဗမာ(Myanmar)"
+ [languages.my.params]
+     introTitle = "ဗမာ(Myanmar)"
+     introSubtitle = "미얀마어 영상 모음입니다."
+     introPhoto = "/flag_myanmar.jpeg"
+  [[languages.my.menu.main]]
+     name = "Blog"
+     url = "blog"
+     weight = 1
 
   # [languages.vi]
   #   contentDir = "content/vi"
@@ -126,7 +139,7 @@ DefaultContentLanguageInSubdir = true
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
-  ascentColor = "bg-indigo-100"
+  ascentColor = "bg-indigo-200"
 
   # The page bundle that is shown on the front page
   frontBundle = "blog"
