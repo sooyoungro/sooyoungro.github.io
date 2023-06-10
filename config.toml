@@ -16,7 +16,7 @@ DefaultContentLanguageInSubdir = true
     introSubtitle = "New Year Special Morning Prayer"
     introPhoto = "/banner_en.png"
   [[languages.en.menu.main]]
-    name = "To The Father’s"
+    name = "Select"
     url = "blog"
     weight = 1
 
@@ -29,7 +29,7 @@ DefaultContentLanguageInSubdir = true
     introSubtitle = "연말연시특별새벽기도회"
     introPhoto = "/banner_kr.png"
   [[languages.kr.menu.main]]
-    name = "아버지 집으로"
+    name = "Select"
     url = "blog"
     weight = 1
 
@@ -42,7 +42,7 @@ DefaultContentLanguageInSubdir = true
     introSubtitle = "跨年特别晨更祷告会"
     introPhoto = "/banner_cn.png"
   [[languages.cn.menu.main]]
-    name = "回父亲的家"
+    name = "Select"
     url = "blog"
     weight = 1
 
@@ -55,20 +55,20 @@ DefaultContentLanguageInSubdir = true
     introSubtitle = "年末年始特別早天祈祷会"
     introPhoto = "/banner_jp.png"
   [[languages.jp.menu.main]]
-    name = "父の家へ"
+    name = "Select"
     url = "blog"
     weight = 1
 
-  [languages.my]
-     contentDir = "content/my"
+  [languages.mm]
+     contentDir = "content/mm"
      weight = 3
      languageName = "ဗမာ(Myanmar)"
- [languages.my.params]
-     introTitle = "ဗမာ(Myanmar)"
-     introSubtitle = "미얀마어 영상 모음입니다."
-     introPhoto = "/flag_myanmar.jpeg"
-  [[languages.my.menu.main]]
-     name = "Blog"
+ [languages.mm.params]
+     introTitle = "အဖအိမ်သို့"
+     introSubtitle = "နှစ်ကုန်၊ နှစ်သစ် အာရုဏ်ဦး အထူးဆုတောင်းအစီအစဥ်"
+     introPhoto = "/cell.png"
+  [[languages.mm.menu.main]]
+     name = "Select"
      url = "blog"
      weight = 1
 
@@ -98,19 +98,6 @@ DefaultContentLanguageInSubdir = true
   #   url = "blog"
   #   weight = 1
 
-  # [languages.my]
-  #   contentDir = "content/my"
-  #   weight = 3
-  #   languageName = "ဗမာ(Myanmar)"
-  # [languages.my.params]
-  #   introTitle = "ဗမာ(Myanmar)"
-  #   introSubtitle = "미얀마어 영상 모음입니다."
-  #   introPhoto = "/flag_myanmar.jpeg"
-  # [[languages.my.menu.main]]
-  #   name = "Blog"
-  #   url = "blog"
-  #   weight = 1
-
 [params]
   # Enable the darkmode toggle in header
   darkModeToggle = true
@@ -133,7 +120,7 @@ DefaultContentLanguageInSubdir = true
   ]
 
   # Custom copyright - optional
-  copyright = "Copyright © 2023 - 수영로교회 국제사역국 통번역팀 · All rights reserved"
+  copyright = "Copyright © 2023 - Translation Team of Suhyungro Church International Missions Department · All rights reserved"
   favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
@@ -171,7 +158,7 @@ DefaultContentLanguageInSubdir = true
 #     url = "https://www.youtube.com/@sooyoungrochurch7718"
 
 [[menu.main]]
-  name = "Blog"
+  name = "Blogs"
   url = "/blog"
 
 [build]
